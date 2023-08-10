@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  llama-app:
+  replit:
     build:
       context: .
       dockerfile: Dockerfile
