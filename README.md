@@ -1,5 +1,5 @@
 # ai-sample
-Docker-ComposeでAIモデル（GPT2, Llama2, replit）を実行する
+Docker-ComposeでAIモデル（GPT2, Llama2, replit, codellama, vicuna-13b）を実行する
 
 ## 事前知識
 
