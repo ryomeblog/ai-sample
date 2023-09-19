@@ -6,7 +6,7 @@ def generate_response(llm, prompt):
     response = result['choices'][0]['text']
     print(f"Llama2: {response}")
 
-llm = Llama(model_path="../data/llama-2-13b-chat.ggmlv3.q6_K.bin")
+llm = Llama(model_path="../data/llama-2-13b-chat.Q2_K.gguf")
 
 while True:
     user_input = input("You: ")

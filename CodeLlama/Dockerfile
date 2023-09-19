@@ -14,7 +14,7 @@ RUN apt-get install -y python3.10 python3-pip
 RUN pip install llama-cpp-python
 
 WORKDIR /usr/src/data
-RUN if [ ! -f codellama-13b-instruct.ggmlv3.Q8_0.bin ]; then wget https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGML/resolve/main/codellama-13b-instruct.ggmlv3.Q8_0.bin; fi
+RUN if [ ! -f codellama-34b-instruct.Q2_K.gguf ]; then wget https://huggingface.co/TheBloke/CodeLlama-34B-Instruct-GGUF/resolve/main/codellama-34b-instruct.Q2_K.gguf; fi
 
 WORKDIR /usr/src/app
 COPY . .
